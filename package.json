@@ -1,6 +1,6 @@
 {
   "name": "electron-dome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "author": "think",
   "license": "MIT",
@@ -8,10 +8,12 @@
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^3.0.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.2.0",
